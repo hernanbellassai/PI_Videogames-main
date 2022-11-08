@@ -1,0 +1,254 @@
+.home-container{
+ 
+  background-color: rgb(77, 75, 75);
+  height: 100%;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 1800px; */
+  background-attachment: fixed;
+}
+
+.homeCardContainer{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+ 
+}
+
+.homeCard{
+  display: flex ;
+  margin:1rem 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #151515;
+  transition: all 300ms;
+  height: 340px;
+  background-color: rgb(32, 31, 31);
+  border-radius: 15px;
+
+
+  
+}
+.homeCard:hover{
+  transform:  scale(1.1);
+}
+
+
+.search{
+  padding: 0.4em;
+}
+.button{
+  padding: 0.7em;
+  font-family: inherit;
+
+  
+}
+.buttonn:hover{
+  background-color: rgb(210, 228, 255);
+  cursor: pointer;
+  transition: 300ms;
+  box-shadow: 0 2px 20px 0 rgb(101, 175, 235), 0 5px 10px 0 rgba(255, 253, 253, 0.363);
+  color: black;
+  border-color: rgb(0, 0, 0);
+}
+
+.buttonn{                     
+  font-family: inherit;
+  background-color: rgb(0, 0, 0); 
+  border-radius: 7px;
+  font-size:1em ;
+  color: white;
+  border-color: white;
+}
+:root{
+  --font-primary: 'Montserrat', sans-serif;
+}
+
+
+.up{ 
+   font-family: var(--font-primary);
+   
+    
+    height: 3em;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color:rgba(36, 36, 33, 0.863);
+
+    box-shadow: 0 4px 20px 0 rgba(141, 177, 206, 0.034), 0 6px 20px 0 rgb(255, 253, 253);
+
+
+
+ 
+
+
+}
+
+
+
+  
+  
+ 
+  
+.reload-container{
+  padding: 0.6em;
+}
+
+.reload{
+  font-size: 20px;
+  font-family: inherit;
+  border-radius: 2em;
+  background-color: black;
+  color: rgb(207, 198, 198);
+  border-color: rgb(212, 208, 208);
+  height: 2em;
+  
+}
+.reload:hover{
+ background-color: rgb(255, 241, 215);
+ color: black;
+ border-color: black;
+ transition: 300ms;
+ cursor: pointer;
+ box-shadow: 0 4px 20px 0 rgb(231, 125, 39), 0 6px 20px 0 rgba(255, 253, 253, 0.363);
+}
+
+.titulo{
+  display: flex;
+  
+  background-image: url("../img/halo3.jpg");
+  justify-content: center;
+  font-size: 5em;
+  text-align: center;
+  
+  
+  padding-bottom: 100px;
+  padding-top: 100px;
+  color: white;
+ 
+  align-items: center;
+  padding-left: 10px;
+  background-size: cover;
+
+  margin:0;
+  
+}
+.tituloo{
+  text-align: center;
+  display: flex;
+  height: 20%;
+  justify-content: center;
+  
+}
+
+.filtros-grande{
+  width: 95.5%;
+  background-color: rgb(26, 26, 26);
+  display:flex ;
+  flex-wrap:wrap ;
+  padding: 3em;
+  height: -3em;
+  justify-content: space-evenly;
+  font-size: 10px;
+
+  align-content: stretch;
+  margin-right: 10px;
+  box-shadow: 0 50px 50px 0 rgba(40, 137, 216, 0.514), 0 10px 15px 0 rgba(255, 255, 255, 0.815);
+  
+  
+  
+ 
+}
+
+.alpha{
+  background-color: rgb(158, 154, 154);
+  font-size: 20px;
+  border-radius: 5px;
+  padding-right: 10px;
+
+} 
+.alpha:hover{
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  box-shadow: 0 4px 20px 0 rgb(194, 138, 54), 0 6px 20px 0 rgba(255, 253, 253, 0.363);
+}
+.rating{
+  background-color: rgb(158, 154, 154);
+  font-size: 20px;
+  border-radius: 5px;
+  gap: 10px;
+
+}
+.rating:hover{
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  box-shadow: 0 4px 20px 0 rgb(194, 138, 54), 0 6px 20px 0 rgba(255, 253, 253, 0.363);
+}
+.allgames{
+  background-color: rgb(158, 154, 154);
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+.allgames:hover{
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  box-shadow: 0 4px 20px 0 rgb(194, 138, 54), 0 6px 20px 0 rgba(255, 253, 253, 0.363);
+}
+
+
+.genres{
+  background-color: rgb(158, 154, 154);
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+
+.genres:hover{
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  box-shadow: 0 4px 20px 0 rgb(194, 138, 54), 0 6px 20px 0 rgba(255, 253, 253, 0.363);
+}
+
+
+
+.paginado{
+ display: flex;
+  justify-content: center;
+ 
+}
+
+
+.loading{
+  border-radius: 10px;
+  border-color: black;
+}
+
+.down{
+  display: flex;
+ background-color: rgb(29, 29, 29);
+ 
+ padding: 1px;
+ justify-content: center;
+ box-shadow: 0 20px 50px 20PX rgba(40, 126, 197, 0.932), 0 20px 30px 0 rgba(255, 255, 255, 0.815);
+  
+}
+.down h5{
+  color: wheat;
+  font-size: 12px;
+  margin-left: 20px;
+  
+
+}

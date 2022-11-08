@@ -1,0 +1,75 @@
+.cardContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  border: rgba(204, 133, 2, 0.5) solid 5px ;
+  background-color: rgb(36, 35, 35);
+  cursor: pointer;
+}
+.cardImg{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.nameContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30px;
+  padding: 3px;
+  
+}
+.cardName {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  color: aliceblue;
+  text-decoration: none;
+  margin-top: 50px; 
+  box-shadow: 0 4px 20px 0 rgba(141, 177, 206, 0.171), 0 6px 20px 0 rgba(255, 253, 253, 0.199);
+ 
+}
+.genreContainer{
+  width: auto;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 2px;
+  margin-left: 12px;
+ 
+}
+.cardGenre{
+  display: flex;
+  color: aliceblue;
+  word-wrap: break-word;
+  font-size: 15px;
+  width: 210px;
+  justify-content: center;
+  
+}
+
+.cardRating{
+  color: rgb(166, 123, 3);
+ 
+  width: 50px;
+  margin: 0px;
+  border-radius: 50px;
+  text-align: center;
+  
+}
+
+.raitingContainer{
+  padding: 0px;
+  text-shadow: 0 4px 20px 0 rgb(231, 125, 39), 0 6px 20px 0 rgba(255, 253, 253, 0.363);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.notFound .cdContainer{
+  color: aliceblue;
+  background-color: aliceblue;
+}

@@ -1,0 +1,31 @@
+.paginadoUl{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 40px;
+  margin-right: 65px;
+}
+.paginadoLi{
+  margin: 2px;
+}
+
+.paginadoBtn{
+  background-color:  rgb(59, 59, 59);
+  color: rgb(249, 249, 249);
+  transition: all 200ms;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+
+}
+.paginadoBtn:hover{
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.1);
+  color: rgb(0, 0, 0);
+}
+.paginadoBtn:focus{
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.2);
+  color: rgb(0, 0, 0);
+}

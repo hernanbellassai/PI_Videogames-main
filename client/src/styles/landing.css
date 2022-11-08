@@ -1,0 +1,36 @@
+#landing{
+  background-image: url(../img/halo2.jpg);
+  background-size: 100%;
+  display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ height: 100vh;
+ width: 100vw;
+ border-bottom: 100%;
+
+}
+#landing button{
+  font-family: 'Montserrat', sans-serif;
+    background-color: rgb(59, 59, 59);
+    border: 2px solid black;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(255, 241, 241, 0.932), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: bold;
+    font-size: 1.3em;
+   
+    margin: 0px;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    transition: .1s;
+}
+
+#landing button:hover{
+  cursor: pointer;
+  background-color: rgb(1, 153, 173);
+  color: black;
+  transition: 300ms;
+  box-shadow: 0 4px 20px 0 rgb(40, 137, 216), 0 6px 20px 0 rgba(45, 79, 228, 0.692);
+}

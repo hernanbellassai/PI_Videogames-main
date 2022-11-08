@@ -1,0 +1,184 @@
+.componente{
+  background-image: url("../img/halo4.jpg");
+
+ 
+
+  display: flex;
+    flex-direction: row;
+    justify-content:  center;
+  
+ 
+  
+ 
+}
+
+
+.componente2{
+  display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    width: 80%;
+}
+
+
+.componente3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width:100%;
+}
+
+.title{
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.formulario1{
+  color: antiquewhite;
+    margin: 9rem auto;
+    display: flex;
+    width: 350px;
+    height: 620px;
+    background-image: linear-gradient(163deg, #242926 0%, #3700ff 100%);
+    border-radius: 20px;
+  
+    
+    
+    justify-content: center;
+}
+.formContainer2 {
+   
+  padding-top: 1rem;
+  width: 400px;
+  height: 604px;
+ 
+  border-radius:15px;
+  transition: all .2s;
+  margin-left: 0.6rem;
+ }
+
+
+
+.formulario{
+  
+
+   background-color: rgba(0, 0, 0, 0.068);
+   border-radius: 10px;
+   
+}
+
+.divContainer{
+  display: block;
+}
+
+
+
+.labelContainer1{
+  display: block;
+  margin-right: 17rem;
+  font-size: 1rem;
+}
+.labelContainer2{
+  display: block;
+  margin-right: 15rem;
+  font-size: 1rem;
+}
+.labelContainer3{
+  display: block;
+  margin-right: 16rem;
+  font-size: 1rem;
+}
+.labelContainer4{
+  display: block;
+  margin-right: 17rem;
+  font-size: 1rem;
+}
+.labelContainer5{
+  display: block;
+  margin-right: 17rem;
+  font-size: 1rem;
+}
+
+
+.inputDescriContainer{
+  margin-bottom: 10px;
+  height: 4.5rem;
+  width: 20rem;
+  font-size: 1rem;
+  padding: 3px;
+  padding-left: 7px;
+  border-radius: 7px;
+}
+.inputContainer{
+  margin-bottom: 10px;
+  height: 1.5rem;
+  width: 20rem;
+  font-size: 1rem;
+  padding: 3px;
+  padding-left: 7px;
+  border-radius: 7px;
+}
+
+
+
+
+
+.selectContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.inputGenres{
+  height: 1.6rem;
+  border-radius: 5px;
+  width: 8rem;
+  margin: 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.inputPlatform{
+  height: 1.6rem;
+  border-radius: 5px;
+  width: 8rem;
+  margin: 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.formCreateBtn{
+
+ 
+  height: 2.6rem;
+    width: 7rem;
+    border-radius: 5px;
+    font-size: 2rem;
+    margin: 7rem;
+    cursor: pointer;
+    transition: all 300ms;
+    margin-right: 1rem;
+}
+
+.formCreateBtn:hover{
+  text-transform: 1rem;
+  box-shadow: 0 4px 20px 0 rgb(141, 177, 206), 0 6px 20px 0 rgba(255, 253, 253, 0.445);
+}
+.inputPat{
+  display: flex;
+
+  background-color: white;
+  
+  
+  border-radius: 10px;
+  border-color: black;
+ 
+  color: black;
+  cursor: pointer;
+}
+
+.fname{
+  display: flex;
+  justify-content: center;
+  color: rgb(196, 28, 28);
+  padding-bottom: 0rem;
+  font-size: 1rem;
+}
